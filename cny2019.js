@@ -76,7 +76,7 @@ function createPig()
 	
 	torso.appendChild(eyes);
 	torso.appendChild(snout);
-	return body;
+	return torso;
 }
 
 function createCaption()
