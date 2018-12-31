@@ -23,13 +23,13 @@ function createOverlay()
 
 function createPig()
 {
-	var body = document.createElement("div");
-	body.style.width = "100px";
-	body.style.height = "90px";
-	body.style.borderRadius = "50%";
-	body.style.position = "relative";
-	body.style.backgroundColor = "rgba(255, 100, 100, 1)";
-	body.style.float = "right";
+	var torso = document.createElement("div");
+	torso.style.width = "100px";
+	torso.style.height = "90px";
+	torso.style.borderRadius = "50%";
+	torso.style.position = "relative";
+	torso.style.backgroundColor = "rgba(255, 100, 100, 1)";
+	torso.style.float = "right";
 	
 	var eyes = document.createElement("div");
 	eyes.style.width = "100px";
@@ -53,7 +53,8 @@ function createPig()
 	snout.style.color = "rgba(100, 50, 50, 1)";
 	snout.innerHTML("..");
 	
-	body.appendChild(snout);
+	torso.appendChild(eyes);
+	torso.appendChild(snout);
 	return body;
 }
 
