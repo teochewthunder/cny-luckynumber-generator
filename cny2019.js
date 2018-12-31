@@ -23,8 +23,8 @@ function createOverlay()
 function createPig()
 {
 	var body = document.createElement("div");
-	body.style.width = "120px";
-	body.style.height = "100px";
+	body.style.width = "100px";
+	body.style.height = "80px";
 	body.style.borderRadius = "50%";
 	body.style.position = "relative";
 	body.style.backgroundColor = "rgba(255,100,100,1)";
