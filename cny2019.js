@@ -35,8 +35,8 @@ function createPig()
 	eyes.style.width = "100px";
 	eyes.style.height = "20px";
 	eyes.style.position = "relative";
-	eyes.style.margin = "20px auto 0 auto";
-	eyes.style.fontSize = "16px";
+	eyes.style.margin = "50px auto 0 auto";
+	eyes.style.fontSize = "25px";
 	eyes.style.textAlign = "center";
 	eyes.style.color = "rgba(0, 0, 0, 1)";
 	eyes.innerHTML = ". .";
@@ -48,7 +48,7 @@ function createPig()
 	snout.style.position = "relative";
 	snout.style.backgroundColor = "rgba(200, 50, 50, 1)";
 	snout.style.margin = "5px auto 0 auto";
-	snout.style.fontSize = "12px";
+	snout.style.fontSize = "20px";
 	snout.style.textAlign = "center";
 	snout.style.color = "rgba(100, 50, 50, 1)";
 	snout.innerHTML = "..";
