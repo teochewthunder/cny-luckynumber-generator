@@ -11,16 +11,14 @@
 				font-family: verdana;
 			}
 		</style>
-
-		<script src="cny2019.js"></script>
 		
 		<script>
 			function cny2019()
 			{
 				var overlay = createOverlay();
-				var body = document.getElementByTagName("body");
+				var body = document.getElementsByTagName("body");
 
-				body.appendChild(overlay);
+				body[0].appendChild(overlay);
 			}
 
 			function createOverlay()
