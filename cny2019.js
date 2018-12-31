@@ -53,6 +53,27 @@ function createPig()
 	snout.style.color = "rgba(100, 50, 50, 1)";
 	snout.innerHTML = "..";
 	
+	var legs = document.createElement("div");
+	legs.style.width = "80px";
+	legs.style.height = "20px";
+	legs.style.position = "relative";
+	legs.style.margin = "5px auto 0 auto";
+	
+	var leg1 = document.createElement("div");
+	leg1.style.width = "10px";
+	leg1.style.height = "20px";
+	leg1.style.backgroundColor = "rgba(255, 100, 100, 1)";
+	leg1.style.float = "left";
+	leg1.style.margin = "0 0 0 10px";
+	
+	var leg2 = leg1;
+	leg2.style.float = "right";
+	leg2.style.margin = "0 10px 0 0";
+
+	
+	legs.appendChild(leg1);
+	legs.appendChild(leg2);
+	
 	torso.appendChild(eyes);
 	torso.appendChild(snout);
 	return body;
