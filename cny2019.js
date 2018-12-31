@@ -28,7 +28,7 @@ function createPig()
 	body.style.height = "90px";
 	body.style.borderRadius = "50%";
 	body.style.position = "relative";
-	body.style.backgroundColor = "rgba(255,100,100,1)";
+	body.style.backgroundColor = "rgba(255, 100, 100, 1)";
 	body.style.float = "right";
 	
 	var snout = document.createElement("div");
@@ -36,8 +36,11 @@ function createPig()
 	snout.style.height = "20px";
 	snout.style.borderRadius = "50%";
 	snout.style.position = "relative";
-	snout.style.backgroundColor = "rgba(200,50,50,1)";
+	snout.style.backgroundColor = "rgba(200, 50, 50, 1)";
 	snout.style.margin = "50px auto 0 auto";
+	snout.style.fontSize = "12px";
+	snout.style.color = "rgba(100, 50, 50, 1)";
+	snout.html("..");
 	
 	body.appendChild(snout);
 	return body;
