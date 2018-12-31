@@ -1,8 +1,10 @@
 function cny2019()
 {
 	var overlay = createOverlay();
+	var pig = createPig();
 	var body = document.getElementsByTagName("body");
 
+	overlay.appendChild(pig);
 	body[0].appendChild(overlay);
 }
 
@@ -20,7 +22,15 @@ function createOverlay()
 
 function createPig()
 {
-
+	var body = document.createElement("div");
+	body.style.width = "150px";
+	body.style.height = "100px";
+	body.style.borderRadius = "50%";
+	body.style.position = "relative";
+	body.style.backgroundColor = "rgba(255,200,100,1)";
+	body.style.float = "right";
+	
+	return body;
 }
 
 function createCaption()
