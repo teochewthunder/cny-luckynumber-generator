@@ -14,6 +14,7 @@ function createOverlay()
 	div.style.width = "300px";
 	div.style.height = "100px";
 	div.style.position = "absolute";
+	div.style.padding = "10px";
 	div.style.backgroundColor = "rgba(0,0,0,0.3)";
 	div.style.right = "0";
 	div.style.bottom = "0";
