@@ -69,13 +69,13 @@ function createPig()
 	var leg2 = leg1;
 	leg2.style.float = "right";
 	leg2.style.margin = "0 10px 0 0";
-
 	
 	legs.appendChild(leg1);
 	legs.appendChild(leg2);
 	
 	torso.appendChild(eyes);
 	torso.appendChild(snout);
+	torso.appendChild(legs);
 	return torso;
 }
 
