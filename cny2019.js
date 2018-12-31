@@ -39,7 +39,7 @@ function createPig()
 	eyes.style.fontSize = "16px";
 	eyes.style.textAlign = "center";
 	eyes.style.color = "rgba(0, 0, 0, 1)";
-	eyes.innerHTML(". .");
+	eyes.innerHTML = ". .";
 
 	var snout = document.createElement("div");
 	snout.style.width = "30px";
@@ -51,7 +51,7 @@ function createPig()
 	snout.style.fontSize = "12px";
 	snout.style.textAlign = "center";
 	snout.style.color = "rgba(100, 50, 50, 1)";
-	snout.innerHTML("..");
+	snout.innerHTML = "..";
 	
 	torso.appendChild(eyes);
 	torso.appendChild(snout);
