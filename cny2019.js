@@ -35,7 +35,7 @@ function createPig()
 	eyes.style.width = "100px";
 	eyes.style.height = "20px";
 	eyes.style.position = "relative";
-	eyes.style.margin = "50px auto 0 auto";
+	eyes.style.margin = "40px auto 0 auto";
 	eyes.style.fontSize = "25px";
 	eyes.style.textAlign = "center";
 	eyes.style.color = "rgba(0, 0, 0, 1)";
