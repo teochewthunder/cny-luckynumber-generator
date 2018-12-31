@@ -62,6 +62,7 @@ function createPig()
 	var leg1 = document.createElement("div");
 	leg1.style.width = "10px";
 	leg1.style.height = "20px";
+	leg1.style.borderRadius = "50%";
 	leg1.style.backgroundColor = "rgba(255, 100, 100, 1)";
 	leg1.style.float = "left";
 	leg1.style.margin = "0 0 0 10px";
