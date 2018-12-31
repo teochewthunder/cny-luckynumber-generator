@@ -32,12 +32,12 @@ function createPig()
 	body.style.float = "right";
 	
 	var snout = document.createElement("div");
-	snout.style.width = "60px";
-	snout.style.height = "50px";
+	snout.style.width = "30px";
+	snout.style.height = "20px";
 	snout.style.borderRadius = "50%";
 	snout.style.position = "relative";
 	snout.style.backgroundColor = "rgba(200,50,50,1)";
-	snout.style.margin = "10px auto 0 auto";
+	snout.style.margin = "50px auto 0 auto";
 	
 	body.appendChild(snout);
 	return body;
