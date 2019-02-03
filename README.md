@@ -28,3 +28,5 @@ The caption is invisible initially; a click event is added to the pig to toggle 
 
 ### Animation
 The eyes and tail of the pig are animated with a *setInterval()* method (with a *setTimeout()* method nested), *after* the pig is rendered.
+
+*Note: The wagging tail does not work in Safari even with webkit prefix added. Since this is a non-critical feature, I can leave well enough alone. Any insight would be appreciated, though!* 
