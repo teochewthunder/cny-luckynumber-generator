@@ -10,10 +10,10 @@ We first define *cny2019()* as an encompassing function. Within it will be the f
 
  - *createOverlay()*, used to create a placehlder for the pig and numbers.
  - *createCaption()*, used to create a placeholder for the numbers.
- -- *getNumbers()*, used to generate 4 random numbers and display them in the caption.
- -- *generateRandomNo(min, max)*, used to generate a number netween *min* and *max*.
+  - *getNumbers()*, used to generate 4 random numbers and display them in the caption.
+  - *generateRandomNo(min, max)*, used to generate a number netween *min* and *max*.
  - *createPig()*, used to create a pig.
- -- *createLeg()*, used to create a pig's leg.
+  - *createLeg()*, used to create a pig's leg.
  
 ### The Pig
 Within *createPig()*, a torso is created. A tail, eyes, snout and a placeholder for legs are created, CSS properties rendered and appended to the torso. *createLeg()* is run 4 times to create the legs, which are then appended to the placeholder for legs.
